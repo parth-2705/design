@@ -605,6 +605,11 @@ section h3.section-subheading {
         min-height: 150px;
     }
 
+#contactForm {
+		width: 70vw;
+		margin: auto;
+	}
+
     .timeline>li .timeline-panel {
         padding: 0 20px 20px;
     }
@@ -687,11 +692,12 @@ section#contact .form-group {
 }
 
 section#contact .form-group input,
-section#contact .form-group textarea {
+section#contact .form-group select {
     padding: 20px;
+	width: 100%;
 }
 
-section#contact .form-group input.form-control {
+section#contact .form-group input.form-control, section#contact .form-group select.form-control {
     height: auto;
 }
 
